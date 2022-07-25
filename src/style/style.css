@@ -1,0 +1,288 @@
+/* General page layout */
+* {
+    box-sizing: border-box;
+    background-color: #EEEEEE;
+  }
+  
+body {
+    font-family: Arial;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex-start;
+  }
+
+
+footer, footer h2, footer p, footer a, .nav, .nav a, header, .name-container {
+    background-color: #1C658C;
+}
+
+main {
+
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
+section, #work h2  {
+    color: #398AB9;
+    padding: 40px;
+    display: block;
+
+}
+
+section h2 {
+    border-right: #1C658C 10px solid;
+}
+
+h1 {
+    color: #1C658C;
+}
+
+h2 {
+    display: block;
+    font-size: 25px;
+}
+
+/* Header section including Navbar and name and author photo*/
+  
+header {
+    text-align: center;
+    color: #398AB9;
+    padding: 10px;
+   
+  }
+
+#name {
+    border: 8px solid black;
+    padding: 10px;
+    display: block;
+    
+  }
+
+nav {
+    background-color: #EEEEEE;
+    overflow: hidden;
+    padding: 15px;
+    text-align: right;
+}
+
+nav a { 
+    color: #EEEEEE;
+    font-size: 18px;
+    display: inline;
+    margin: 50px 50px;
+    font-weight:bold;
+    color: #1C658C;
+   
+  }
+
+  /* Author picture section */
+
+.name-container {
+    position: static;
+    display: inline;
+}
+
+header img {
+    padding: 5px;
+    width: auto;
+    height: 150px;
+    margin-top: 20px;
+    border: 10px solid black;
+    
+}
+
+/* Image within header and subtitle within that image */
+
+.flex-container {
+    display: inline-flex;
+    height: 200px;
+    border: 10px solid black;
+
+}
+
+#subtitle {
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    
+}
+
+.flex-container p  {
+    display: inline-flex;
+    border: 10px solid #1C658C;
+    padding: 10px;
+   
+}
+/* Hover interactivity for links in footer and header */
+
+nav a:hover {
+    color:#EEEEEE;
+    background-color: #1C658C;
+    
+}
+
+footer a:hover {
+    color:#1C658C;
+    background-color: #EEEEEE;
+ }
+
+
+
+
+ /* About me section */
+
+ #about-me {
+   display:block;
+ }
+
+ #about-me p {
+     margin-left: 200px;
+ }
+
+/* Work section */
+
+.text-block a {
+    margin-bottom:  5px;
+
+}
+
+.text-block a:hover {
+    color: #EEEEEE;
+}
+
+
+.content-section {
+    margin-top: 15px;
+  }
+/* Container holding the image and the text */
+.container {
+    position: relative;
+  }
+
+
+.text-block p, .text-block h4, .text-block a{
+    background-color: #398AB9;
+}
+  
+  /* Bottom right text */
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #398AB9;
+    color: #EEEEEE;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+
+
+#work{
+    flex: 4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+/* #work-card-container {
+    padding: 10px;
+    margin: 10px;
+}
+ */
+
+
+#work img:hover {
+    border: 10px solid #1C658C;
+}
+
+.work-card {
+    width: auto;
+    height: 550px;
+    padding: 10px;
+    margin: 10px;
+    
+} 
+
+
+/* Image titles */
+
+
+/* Footer section / contact information */
+
+a {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+
+
+footer {
+    padding: 40px;
+    text-align: center;
+    color: #EEEEEE;
+  }
+
+
+
+footer p {
+    display: inline;
+    margin: 20px;
+      
+  }
+
+footer a {
+    font-size: 18px;
+}
+
+
+/* Responsive Layout */
+
+@media screen and (max-width: 768px) {
+    .container, nav, footer, .container img, header.container {
+      flex-direction: column;
+    }
+    .gallery-image, figure {
+        width: 100%;
+        
+    }
+
+  }
+  
+ 
+  #work-card-container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+  }
+  
+  /* used calc in my flex basis with margin in a later element to produce equal space between all the work cards*/
+  .work-card {
+    position: relative;
+    margin: auto;
+  }
+  
+  /* hover pseudo-class used to darken the work cards on hover */
+
+  
+  .work-card img {
+    outline: 0;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .big-card {
+    flex: 0 0 100%;
+  }
+  
+  .small-card {
+    /* this spaces the work cards from each other */
+    margin-top: 10px;
+    /* this will be modified in a breakpoint later to produce smaller cards at higher resolutions */
+    flex: 0 0 100%;
+  }
+  
