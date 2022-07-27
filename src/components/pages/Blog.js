@@ -1,5 +1,4 @@
 import React from "react";
-
 import codeQuiz from "../../codequiz.png";
 import gravityLines from "../../gravity-lines.png";
 import sexEdMap from "../../SexEdMap.png";

@@ -1,6 +1,7 @@
 import React from 'react';
 import resume from '../../Resume2022.pdf'
 
+
 export default function Contact() {
   return (
     <footer  id="contact">
@@ -8,12 +9,9 @@ export default function Contact() {
 
     <p>Phone number: 305-290-1430 </p>
     <p>Email: LauraAntunez024@gmail.com      </p>
-    <a href="https://github.com/lauraantunez024" taget="_blank">Github</a>
-    <a href="https://www.linkedin.com/in/laura-antunez-2a4a12182/" target="_blank">LinkedIn</a>
-    <a href={resume} target="_blank">Resume</a>
-
-
-
+    <a href="https://github.com/lauraantunez024" target="_blank" rel="noreferrer">Github</a>
+    <a href="https://www.linkedin.com/in/laura-antunez-2a4a12182/" target="_blank" rel="noreferrer">LinkedIn</a>
+    <a href={resume} target="_blank" rel="noreferrer">Resume</a>
 </footer>
   );
 }
