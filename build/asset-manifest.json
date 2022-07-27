@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Portfolio_2.0/static/css/main.2cdc8ccc.css",
+    "main.js": "/Portfolio_2.0/static/js/main.91fa323d.js",
+    "static/media/talespindemo.png": "/Portfolio_2.0/static/media/talespindemo.f3e128efea4211a99ef0.png",
+    "static/media/author.JPG": "/Portfolio_2.0/static/media/author.6adef680e40105ee930f.JPG",
+    "static/media/MyTraffic.png": "/Portfolio_2.0/static/media/MyTraffic.a019af1fd445dc3fb5b9.png",
+    "static/media/codequiz.png": "/Portfolio_2.0/static/media/codequiz.7d1d863a95a43a086fe6.png",
+    "static/media/SexEdMap.png": "/Portfolio_2.0/static/media/SexEdMap.720853e4da4e2a45cbdd.png",
+    "static/media/Resume2022.pdf": "/Portfolio_2.0/static/media/Resume2022.bc2539956c5933886fa2.pdf",
+    "static/media/gravity-lines.png": "/Portfolio_2.0/static/media/gravity-lines.67d53eef328741e9c7e6.png",
+    "index.html": "/Portfolio_2.0/index.html",
+    "main.2cdc8ccc.css.map": "/Portfolio_2.0/static/css/main.2cdc8ccc.css.map",
+    "main.91fa323d.js.map": "/Portfolio_2.0/static/js/main.91fa323d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2cdc8ccc.css",
+    "static/js/main.91fa323d.js"
+  ]
+}
