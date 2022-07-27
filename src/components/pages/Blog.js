@@ -64,7 +64,7 @@ export default function Portfolio() {
               href={project.deployedURL}
             >
               <h3>{project.name}</h3>
-               <a href={project.repoURL}><img src={project.image} alt={project.altAttribute} /></a>
+               <a href={project.repoURL} target="_blank" rel="noreferrer"><img src={project.image} alt={project.altAttribute} /></a>
             </a>
             {/* <a
               className="repo-link"

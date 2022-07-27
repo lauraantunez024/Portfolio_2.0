@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio_2.0/static/css/main.3d1d27c1.css",
-    "main.js": "/Portfolio_2.0/static/js/main.65d8b151.js",
+    "main.css": "/Portfolio_2.0/static/css/main.167ec326.css",
+    "main.js": "/Portfolio_2.0/static/js/main.b82c74df.js",
     "static/media/talespindemo.png": "/Portfolio_2.0/static/media/talespindemo.f3e128efea4211a99ef0.png",
     "static/media/author.JPG": "/Portfolio_2.0/static/media/author.6adef680e40105ee930f.JPG",
     "static/media/MyTraffic.png": "/Portfolio_2.0/static/media/MyTraffic.a019af1fd445dc3fb5b9.png",
@@ -10,11 +10,11 @@
     "static/media/Resume2022.pdf": "/Portfolio_2.0/static/media/Resume2022.bc2539956c5933886fa2.pdf",
     "static/media/gravity-lines.png": "/Portfolio_2.0/static/media/gravity-lines.67d53eef328741e9c7e6.png",
     "index.html": "/Portfolio_2.0/index.html",
-    "main.3d1d27c1.css.map": "/Portfolio_2.0/static/css/main.3d1d27c1.css.map",
-    "main.65d8b151.js.map": "/Portfolio_2.0/static/js/main.65d8b151.js.map"
+    "main.167ec326.css.map": "/Portfolio_2.0/static/css/main.167ec326.css.map",
+    "main.b82c74df.js.map": "/Portfolio_2.0/static/js/main.b82c74df.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d1d27c1.css",
-    "static/js/main.65d8b151.js"
+    "static/css/main.167ec326.css",
+    "static/js/main.b82c74df.js"
   ]
 }
