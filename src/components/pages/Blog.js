@@ -64,16 +64,15 @@ export default function Portfolio() {
               href={project.deployedURL}
             >
               <h3>{project.name}</h3>
-              <img src={project.image} alt={project.altAttribute} />
+               <a href={project.repoURL}><img src={project.image} alt={project.altAttribute} /></a>
             </a>
-            <a
+            {/* <a
               className="repo-link"
               rel="noreferrer"
               target="_blank"
-              href={project.repoURL}
             >
               <h4>Repo Link</h4>
-            </a>
+            </a> */}
           </div>
         ))}
       </section>

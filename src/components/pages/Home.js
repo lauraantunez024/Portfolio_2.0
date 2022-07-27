@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <header>
     <div class="name-container">
-    <h1 id="name">Laura Antunez</h1>
+    <h1 id="name">Laura Antunez's Portfolio</h1>
 
    
     <img src={authorImage} alt="Author" />
