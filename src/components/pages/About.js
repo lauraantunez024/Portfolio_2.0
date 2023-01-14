@@ -1,7 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
+import InteractiveGreeting from '../InteractiveGreeting';
 
 
-export default function About() {
+function About() {
+  const [greeting, setGreeting] = useState([]);
+  const addName = (name) => {
+    console.log("What's up" + name)
+  }
+
+
+
   return (
     <section id="about-me" >
     <h2>About Me</h2>
@@ -10,5 +18,10 @@ export default function About() {
         </p>
     
 </section>
-  );
+  )
 }
+
+
+
+
+export default About;
